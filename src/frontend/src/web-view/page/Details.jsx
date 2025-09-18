@@ -355,7 +355,7 @@ const ProductDetails = () => {
                             </div>
 
 
-                            <div className="comment-box mt-3">
+                            <div className="comment-box my-3">
                                 {/* Danh sách bình luận */}
                                 <div className="comment-list">
                                     {filteredComments && filteredComments.length > 0 ? (

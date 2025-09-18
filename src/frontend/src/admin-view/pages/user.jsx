@@ -42,8 +42,7 @@ const UserComponent = () => {
     // Filter danh sách theo searchTerm
     const filteredData = users.filter((user) =>
         user.hoten?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.sodienthoai?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.role?.toLowerCase().includes(searchTerm.toLowerCase())
+        user.sodienthoai?.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     // Sắp xếp dữ liệu (nếu cần)

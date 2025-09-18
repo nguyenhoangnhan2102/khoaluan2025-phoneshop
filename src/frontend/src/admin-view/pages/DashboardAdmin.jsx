@@ -240,7 +240,7 @@ const DashboardAdmin = () => {
           </div>
 
           <div className="chart-card chart-card-small">
-            <h4>Top 10 sản phẩm bán chạy</h4>
+            <h4>Top sản phẩm bán chạy</h4>
             <Pie data={chartData} />
           </div>
         </div>
